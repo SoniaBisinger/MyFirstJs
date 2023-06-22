@@ -1,11 +1,11 @@
 :root {
-    --dark: #374151;
-    --darker: #1F2937;
-    --darkest: #111827;
-    --gray: #6B7280;
+    --dark: #213555;
+    --darker: #32588d;
+    --darkest: #1d2d51;
+    --gray: #a0b4dc;
     --light: #EEE;
-    --pink: #EC4899;
-    --purple: #8B5CF6;
+    --pink: #65f8cc;
+    --purple: #cceb31;
 }
 
 * {
@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background: var(--dark);
-    color: #FFF;
+    color: rgb(34, 137, 207);
     /* margin-left: 20px; */
 }
 
@@ -155,5 +155,5 @@ main {
 }
 
 .task .actions .delete {
-    color: crimson;
+    color: rgb(250, 164, 164);
 }
